@@ -1,143 +1,46 @@
-﻿
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>呼叫电工</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
-  	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
-  	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
-	<meta content="yes" name="apple-mobile-web-app-capable" />
-	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
-	<meta content="telephone=no" name="format-detection" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/slider.js"></script>
-
+  <title>呼叫电工</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<section class="aui-flexView">
-	<header class="aui-navBar aui-navBar-fixed">
-		<div class="aui-center">
-			<span class="aui-center-title">企业服务套餐</span>
-		</div>
-	</header>
-	<section class="aui-scrollView">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="http://8pwn.com">呼叫电工</a>
+  <span class="breadcrumb-item active">企业用户入口</span>
+</nav>
 
-		<div class="aui-area-list">
-			<a href="none.html" class="aui-flex b-line">
-				<div class="aui-area-img">
-					<img src="images/mao_huang.jpg" alt="">
-				</div>
-				<div class="aui-flex-box">
-					<h2>安全工器具检测</h2>
-					<p>安全无小事</p>
-					<h3><em>￥</em>80元<em>起</em></h3>
-				</div>
-				<div class="aui-flex-box">
-					<span class="aui-flex-price">专业资质</span>
-					</br></br>
-					<span class="aui-flex-price">标准服务</span>
-				</div>
-			</a>
+<div class="container">
+  <h3>按等级分类</h3>
+  <table class="table table-bordered">
+ <tbody>
+      <tr>
+        <td>315kVA及以下用户  </td>
+        <th><a href=xiangqing.html class="btn btn-outline-primary " role="button" >服务详情</a></th>
+      </tr>
+   
+      <tr>
+        <td>315kVA-800kVA用户</td>
+        <td><a href=xiangqing.html class="btn btn-outline-primary " role="button" >服务详情</a></td>
+      </tr>
+      <tr>
+        <td>800kVA-2000kVA用户</td>
+        <td><a href=xiangqing.html class="btn btn-outline-primary " role="button" >服务详情</a></td>
+      </tr>
+      <tr>
+        <td>2000kVA及以上用户</td>
+        <td><a href=xiangqing.html class="btn btn-outline-primary " role="button" >服务详情</a></td>
+      </tr>
+    </tbody>
+</table>
 
-			
-			<a href="none.html" class="aui-flex b-line">
-				<div class="aui-area-img">
-					<img src="images/mao_lan.jpg" alt="">
-				</div>
-				<div class="aui-flex-box">
-					<h2>电气预防性试验</h2>
-					<p>电气设备的隐患排查高手</p>
-					<h3><em>￥</em>1000元<em>起</em></h3>
-				</div>
-				<div class="aui-flex-box">
-					<span class="aui-flex-price">专业资质</span>
-					</br></br>
-					<span class="aui-flex-price">标准服务</span>
-				</div>
-			</a>
+</div>
 
-			<a href="none.html"class="aui-flex b-line">
-				<div class="aui-area-img">
-					<img src="images/mao_hong.jpg" alt="">
-				</div>
-				<div class="aui-flex-box">
-					<h2>包年抢修</h2>
-					<p>城区45分钟内必达</p>
-					<h3><em>￥</em>1500元<em>起</em></h3>
-				</div>
-				<div class="aui-flex-box">
-					<span class="aui-flex-price">电网标准</span>
-					</br></br>
-					<span class="aui-flex-price">极速抢修</span>
-				</div>
-			</a>	
-
-			<a href="none.html"class="aui-flex b-line">
-				<div class="aui-area-img">
-					<img src="images/mao_bai.jpg" alt="">
-					
-				</div>
-				<div class="aui-flex-box">
-					<h2>基础套餐</h2>
-					<p>最小化配电室运维成本</p>
-					<h3><em>￥</em>3000元<em>起</em></h3>
-				</div>
-				<div class="aui-flex-box">
-					<span class="aui-flex-price">电网标准</span>
-					</br></br>
-					<span class="aui-flex-price">极速抢修</span>
-				</div>
-			</a>
-			<a href="none.html" class="aui-flex b-line">
-				<div class="aui-area-img">
-					<img src="images/mao_huang.jpg" alt="">
-					
-				</div>
-				<div class="aui-flex-box">
-					<h2>高档套餐</h2>
-					<p>最小化配电安全风险</p>
-					<h3><em>￥</em>15000元<em>起</em></h3>
-				</div>
-				<div class="aui-flex-box">
-					<span class="aui-flex-price">电网标准</span>
-					</br></br>
-					<span class="aui-flex-price">极速抢修</span>
-					</br></br>
-					<span class="aui-flex-price">专业队伍</span>
-				</div>
-			</a>
-			<a href="none.html" class="aui-flex b-line">
-				<div class="aui-area-img">
-					<img src="images/mao_lan.jpg" alt="">
-				</div>
-				<div class="aui-flex-box">
-					<h2>自定义套餐</h2>
-					<p>专属定制套餐服务</p>
-					<h3><em>￥</em>3000元<em>起</em></h3>
-				</div>
-				<div class="aui-flex-box">
-					<span class="aui-flex-price">电网标准</span>
-					</br></br>
-					<span class="aui-flex-price">极速抢修</span>
-					</br></br>
-					<span class="aui-flex-price">专业队伍</span>
-				</div>
-			</a>
-			
-		</div>
-	</section>
-</section>
-
-  <div class="alert alert-warning alert-dismissible fade show">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>免责声明：</strong> <h1> </h1>所有费用均为人工费，不包含材料费
-  </div>
 </body>
-
 </html>
